@@ -12,6 +12,8 @@ Windows 课程设计项目，该项目完成顾客和管理员功能，在基本
 
 ![image](https://github.com/user-attachments/assets/4df983b2-d45b-4e24-9d34-decbe93bea7d)
 
+![image](https://github.com/user-attachments/assets/1694cd20-2c97-4bca-a119-ab70fe544aa9)
+
 
 
 
