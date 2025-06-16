@@ -25,8 +25,6 @@ namespace appfruit
             InitializeComponent();
         }
 
-
-
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string username = txtUsername.Text;
@@ -57,8 +55,17 @@ namespace appfruit
 
                         int count = (int)command.ExecuteScalar();
                         loginSuccess = count > 0;
+
+                        if (loginSuccess)
+                        {
+                            // Update LastVisitTime for the customer
+                            string updateQuery = "UPDATE Customers SET LastVisitTime = GETDATE() WHERE CustomerName = @CustomerName";
+                            SqlCommand updateCommand = new SqlCommand(updateQuery, connection);
+                            updateCommand.Parameters.AddWithValue("@CustomerName", username);
+                            updateCommand.ExecuteNonQuery();
+                        }
                     }
-                    else
+                    else // Administrator
                     {
                         string query = "SELECT COUNT(*) FROM Administrators WHERE Username = @Username AND PasswordHash = @PasswordHash";
                         SqlCommand command = new SqlCommand(query, connection);
@@ -75,7 +82,8 @@ namespace appfruit
                         CurrentUser.UserName = username;
                         CurrentUser.UserType = userTypeString; // 如果需要在全局使用 UserType，则添加到 CurrentUser 中
                         Console.WriteLine($"当前用户名 (从 LoginForm 设置): {CurrentUser.UserName}"); // 调试信息
-                        MessageBox.Show($"{userTypeString}登录成功！", "登录成功", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        //MessageBox.Show($"{userTypeString}登录成功！", "登录成功", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show($"欢迎 {username}来到HFruit！", "登录成功", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         this.DialogResult = DialogResult.OK;
                         this.Close();
                     }

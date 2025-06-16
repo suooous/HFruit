@@ -3,7 +3,115 @@
   "WorkspaceRootPath": "D:\\winapp\\appfruit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|d:\\winapp\\appfruit\\appfruit\\statisticsusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|d:\\winapp\\appfruit\\appfruit\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\customhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\customhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\admindashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\admindashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\customhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\customhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\fruitbrowseusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\fruitbrowseusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\fruitbrowseusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\fruitbrowseusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\fruitbrowseusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\fruitbrowseusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\deletefruitusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\deletefruitusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\deletefruitusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\deletefruitusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\deletefruitusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\deletefruitusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\customhomepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\customhomepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\customermanagementusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\customermanagementusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\customermanagementusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\customermanagementusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\customermanagementusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\customermanagementusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\aiqausercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\aiqausercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\aiqausercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\aiqausercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\aiqausercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\aiqausercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\adminsalesstatisticsusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\adminsalesstatisticsusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\adminsalesstatisticsusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\adminsalesstatisticsusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\addfruitusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\addfruitusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\addfruitusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\addfruitusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\addfruitusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\addfruitusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\statisticsusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\statisticsusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -43,112 +151,8 @@
       "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\fruitbrowseusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\fruitbrowseusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\fruitbrowseusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\fruitbrowseusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\fruitbrowseusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\fruitbrowseusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\deletefruitusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\deletefruitusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\deletefruitusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\deletefruitusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\deletefruitusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\deletefruitusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\customhomepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\customhomepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\customhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\customhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\customhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\customhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\customermanagementusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\customermanagementusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\customermanagementusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\customermanagementusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\customermanagementusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\customermanagementusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\addfruitusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\addfruitusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\addfruitusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\addfruitusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\addfruitusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\addfruitusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\admindashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\admindashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\adminsalesstatisticsusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\adminsalesstatisticsusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\adminsalesstatisticsusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\adminsalesstatisticsusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\adminsalesstatisticsusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\adminsalesstatisticsusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\aiqausercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\aiqausercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\aiqausercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\aiqausercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\aiqausercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\aiqausercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -161,10 +165,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\roundedpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\roundedpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|solutionrelative:appfruit\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F79F5811-6537-4E8E-BA55-CDE59956739D}|appfruit\\appfruit.csproj|D:\\winapp\\appfruit\\appfruit\\fruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -189,184 +189,132 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StatisticsUserControl.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\StatisticsUserControl.cs",
-              "RelativeDocumentMoniker": "appfruit\\StatisticsUserControl.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\StatisticsUserControl.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "appfruit\\StatisticsUserControl.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T06:56:08.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StatisticsUserControl.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\StatisticsUserControl.cs",
-              "RelativeDocumentMoniker": "appfruit\\StatisticsUserControl.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\StatisticsUserControl.cs",
-              "RelativeToolTip": "appfruit\\StatisticsUserControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T13:02:24.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StatisticsUserControl.Designer.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\StatisticsUserControl.Designer.cs",
-              "RelativeDocumentMoniker": "appfruit\\StatisticsUserControl.Designer.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\StatisticsUserControl.Designer.cs",
-              "RelativeToolTip": "appfruit\\StatisticsUserControl.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T13:11:02.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ShoppingCartUserControl.Designer.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\ShoppingCartUserControl.Designer.cs",
-              "RelativeDocumentMoniker": "appfruit\\ShoppingCartUserControl.Designer.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\ShoppingCartUserControl.Designer.cs",
-              "RelativeToolTip": "appfruit\\ShoppingCartUserControl.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Customhomepage.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\Customhomepage.cs",
+              "RelativeDocumentMoniker": "appfruit\\Customhomepage.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\Customhomepage.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "appfruit\\Customhomepage.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T09:25:37.96Z"
+              "WhenOpened": "2025-06-15T05:39:09.132Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ShoppingCartUserControl.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\ShoppingCartUserControl.cs",
-              "RelativeDocumentMoniker": "appfruit\\ShoppingCartUserControl.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\ShoppingCartUserControl.cs",
-              "RelativeToolTip": "appfruit\\ShoppingCartUserControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T09:26:16.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ShoppingCartUserControl.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\ShoppingCartUserControl.cs",
-              "RelativeDocumentMoniker": "appfruit\\ShoppingCartUserControl.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\ShoppingCartUserControl.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "appfruit\\ShoppingCartUserControl.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T06:55:27.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterForm.Designer.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\RegisterForm.Designer.cs",
-              "RelativeDocumentMoniker": "appfruit\\RegisterForm.Designer.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\RegisterForm.Designer.cs",
-              "RelativeToolTip": "appfruit\\RegisterForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T01:21:02.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegisterForm.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "appfruit\\RegisterForm.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\RegisterForm.cs",
-              "RelativeToolTip": "appfruit\\RegisterForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T01:18:55.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RegisterForm.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "appfruit\\RegisterForm.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\RegisterForm.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "appfruit\\RegisterForm.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T01:18:46.326Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\Program.cs",
-              "RelativeDocumentMoniker": "appfruit\\Program.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\Program.cs",
-              "RelativeToolTip": "appfruit\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T11:34:40.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginForm.Designer.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\LoginForm.Designer.cs",
-              "RelativeDocumentMoniker": "appfruit\\LoginForm.Designer.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\LoginForm.Designer.cs",
-              "RelativeToolTip": "appfruit\\LoginForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T12:54:07.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "LoginForm.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\LoginForm.cs",
               "RelativeDocumentMoniker": "appfruit\\LoginForm.cs",
               "ToolTip": "D:\\winapp\\appfruit\\appfruit\\LoginForm.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "appfruit\\LoginForm.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T12:39:45.038Z"
+              "WhenOpened": "2025-06-13T12:39:45.038Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FruitBrowseUserControl.Designer.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\FruitBrowseUserControl.Designer.cs",
-              "RelativeDocumentMoniker": "appfruit\\FruitBrowseUserControl.Designer.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\FruitBrowseUserControl.Designer.cs",
-              "RelativeToolTip": "appfruit\\FruitBrowseUserControl.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T06:46:49.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FruitBrowseUserControl.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\FruitBrowseUserControl.cs",
-              "RelativeDocumentMoniker": "appfruit\\FruitBrowseUserControl.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\FruitBrowseUserControl.cs",
-              "RelativeToolTip": "appfruit\\FruitBrowseUserControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:59:08.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\LoginForm.cs",
               "RelativeDocumentMoniker": "appfruit\\LoginForm.cs",
               "ToolTip": "D:\\winapp\\appfruit\\appfruit\\LoginForm.cs",
               "RelativeToolTip": "appfruit\\LoginForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAgwLUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T12:42:41.409Z"
+              "WhenOpened": "2025-06-13T12:42:41.409Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "appfruit\\LoginForm.Designer.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\LoginForm.Designer.cs",
+              "RelativeToolTip": "appfruit\\LoginForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T12:54:07.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminDashboardForm.Designer.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AdminDashboardForm.Designer.cs",
+              "RelativeDocumentMoniker": "appfruit\\AdminDashboardForm.Designer.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AdminDashboardForm.Designer.cs",
+              "RelativeToolTip": "appfruit\\AdminDashboardForm.Designer.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:27:01.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminDashboardForm.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AdminDashboardForm.cs",
+              "RelativeDocumentMoniker": "appfruit\\AdminDashboardForm.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AdminDashboardForm.cs",
+              "RelativeToolTip": "appfruit\\AdminDashboardForm.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAAKIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:26:21.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminDashboardForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AdminDashboardForm.cs",
+              "RelativeDocumentMoniker": "appfruit\\AdminDashboardForm.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AdminDashboardForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "appfruit\\AdminDashboardForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T07:59:07.349Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Customhomepage.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\Customhomepage.cs",
+              "RelativeDocumentMoniker": "appfruit\\Customhomepage.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\Customhomepage.cs",
+              "RelativeToolTip": "appfruit\\Customhomepage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T23:49:05.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FruitBrowseUserControl.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\FruitBrowseUserControl.cs",
+              "RelativeDocumentMoniker": "appfruit\\FruitBrowseUserControl.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\FruitBrowseUserControl.cs",
+              "RelativeToolTip": "appfruit\\FruitBrowseUserControl.cs",
+              "ViewState": "AgIAAJUBAAAAAAAAAAAlwKUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:59:08.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FruitBrowseUserControl.Designer.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\FruitBrowseUserControl.Designer.cs",
+              "RelativeDocumentMoniker": "appfruit\\FruitBrowseUserControl.Designer.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\FruitBrowseUserControl.Designer.cs",
+              "RelativeToolTip": "appfruit\\FruitBrowseUserControl.Designer.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T06:46:49.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "FruitBrowseUserControl.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\FruitBrowseUserControl.cs",
               "RelativeDocumentMoniker": "appfruit\\FruitBrowseUserControl.cs",
@@ -377,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 11,
               "Title": "DeleteFruitUserControl.Designer.cs",
               "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\DeleteFruitUserControl.Designer.cs",
               "RelativeDocumentMoniker": "appfruit\\DeleteFruitUserControl.Designer.cs",
@@ -389,19 +337,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 12,
               "Title": "DeleteFruitUserControl.cs",
               "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\DeleteFruitUserControl.cs",
               "RelativeDocumentMoniker": "appfruit\\DeleteFruitUserControl.cs",
               "ToolTip": "D:\\winapp\\appfruit\\appfruit\\DeleteFruitUserControl.cs",
               "RelativeToolTip": "appfruit\\DeleteFruitUserControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALkAAAAAAAAAAAAlwMkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T09:15:32.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 13,
               "Title": "DeleteFruitUserControl.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\DeleteFruitUserControl.cs",
               "RelativeDocumentMoniker": "appfruit\\DeleteFruitUserControl.cs",
@@ -412,66 +360,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 14,
               "Title": "Customhomepage.Designer.cs",
               "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\Customhomepage.Designer.cs",
               "RelativeDocumentMoniker": "appfruit\\Customhomepage.Designer.cs",
               "ToolTip": "D:\\winapp\\appfruit\\appfruit\\Customhomepage.Designer.cs",
               "RelativeToolTip": "appfruit\\Customhomepage.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T23:57:46.86Z"
+              "WhenOpened": "2025-06-14T23:57:46.86Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Customhomepage.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\Customhomepage.cs",
-              "RelativeDocumentMoniker": "appfruit\\Customhomepage.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\Customhomepage.cs",
-              "RelativeToolTip": "appfruit\\Customhomepage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T23:49:05.425Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Customhomepage.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\Customhomepage.cs",
-              "RelativeDocumentMoniker": "appfruit\\Customhomepage.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\Customhomepage.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "appfruit\\Customhomepage.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T05:39:09.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 15,
               "Title": "CustomerManagementUserControl.Designer.cs",
               "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\CustomerManagementUserControl.Designer.cs",
               "RelativeDocumentMoniker": "appfruit\\CustomerManagementUserControl.Designer.cs",
               "ToolTip": "D:\\winapp\\appfruit\\appfruit\\CustomerManagementUserControl.Designer.cs",
               "RelativeToolTip": "appfruit\\CustomerManagementUserControl.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T09:16:25.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 16,
               "Title": "CustomerManagementUserControl.cs",
               "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\CustomerManagementUserControl.cs",
               "RelativeDocumentMoniker": "appfruit\\CustomerManagementUserControl.cs",
               "ToolTip": "D:\\winapp\\appfruit\\appfruit\\CustomerManagementUserControl.cs",
               "RelativeToolTip": "appfruit\\CustomerManagementUserControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAhwIcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T09:16:09.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 17,
               "Title": "CustomerManagementUserControl.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\CustomerManagementUserControl.cs",
               "RelativeDocumentMoniker": "appfruit\\CustomerManagementUserControl.cs",
@@ -482,13 +408,95 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CurrentUser.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\CurrentUser.cs",
+              "RelativeDocumentMoniker": "appfruit\\CurrentUser.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\CurrentUser.cs",
+              "RelativeToolTip": "appfruit\\CurrentUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T09:19:59.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AIQAUserControl.Designer.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AIQAUserControl.Designer.cs",
+              "RelativeDocumentMoniker": "appfruit\\AIQAUserControl.Designer.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AIQAUserControl.Designer.cs",
+              "RelativeToolTip": "appfruit\\AIQAUserControl.Designer.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T06:43:36.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AIQAUserControl.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AIQAUserControl.cs",
+              "RelativeDocumentMoniker": "appfruit\\AIQAUserControl.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AIQAUserControl.cs",
+              "RelativeToolTip": "appfruit\\AIQAUserControl.cs",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAlwAwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T14:49:43.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AIQAUserControl.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AIQAUserControl.cs",
+              "RelativeDocumentMoniker": "appfruit\\AIQAUserControl.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AIQAUserControl.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "appfruit\\AIQAUserControl.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T06:56:30.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdminSalesStatisticsUserControl.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AdminSalesStatisticsUserControl.cs",
+              "RelativeDocumentMoniker": "appfruit\\AdminSalesStatisticsUserControl.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AdminSalesStatisticsUserControl.cs",
+              "RelativeToolTip": "appfruit\\AdminSalesStatisticsUserControl.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAhwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:33:15.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AdminSalesStatisticsUserControl.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AdminSalesStatisticsUserControl.cs",
+              "RelativeDocumentMoniker": "appfruit\\AdminSalesStatisticsUserControl.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AdminSalesStatisticsUserControl.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "appfruit\\AdminSalesStatisticsUserControl.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:31:09.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddFruitUserControl.Designer.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AddFruitUserControl.Designer.cs",
+              "RelativeDocumentMoniker": "appfruit\\AddFruitUserControl.Designer.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AddFruitUserControl.Designer.cs",
+              "RelativeToolTip": "appfruit\\AddFruitUserControl.Designer.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:32:51.833Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 25,
               "Title": "AddFruitUserControl.cs",
               "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AddFruitUserControl.cs",
               "RelativeDocumentMoniker": "appfruit\\AddFruitUserControl.cs",
               "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AddFruitUserControl.cs",
               "RelativeToolTip": "appfruit\\AddFruitUserControl.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAkwBAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T08:32:34.716Z"
             },
@@ -506,53 +514,123 @@
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "AddFruitUserControl.Designer.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AddFruitUserControl.Designer.cs",
-              "RelativeDocumentMoniker": "appfruit\\AddFruitUserControl.Designer.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AddFruitUserControl.Designer.cs",
-              "RelativeToolTip": "appfruit\\AddFruitUserControl.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "StatisticsUserControl.Designer.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\StatisticsUserControl.Designer.cs",
+              "RelativeDocumentMoniker": "appfruit\\StatisticsUserControl.Designer.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\StatisticsUserControl.Designer.cs",
+              "RelativeToolTip": "appfruit\\StatisticsUserControl.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:32:51.833Z"
+              "WhenOpened": "2025-06-15T13:11:02.519Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "AdminDashboardForm.Designer.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AdminDashboardForm.Designer.cs",
-              "RelativeDocumentMoniker": "appfruit\\AdminDashboardForm.Designer.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AdminDashboardForm.Designer.cs",
-              "RelativeToolTip": "appfruit\\AdminDashboardForm.Designer.cs",
+              "Title": "StatisticsUserControl.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\StatisticsUserControl.cs",
+              "RelativeDocumentMoniker": "appfruit\\StatisticsUserControl.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\StatisticsUserControl.cs",
+              "RelativeToolTip": "appfruit\\StatisticsUserControl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:27:01.008Z"
+              "WhenOpened": "2025-06-15T13:02:24.654Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "AdminDashboardForm.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AdminDashboardForm.cs",
-              "RelativeDocumentMoniker": "appfruit\\AdminDashboardForm.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AdminDashboardForm.cs",
-              "RelativeToolTip": "appfruit\\AdminDashboardForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "StatisticsUserControl.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\StatisticsUserControl.cs",
+              "RelativeDocumentMoniker": "appfruit\\StatisticsUserControl.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\StatisticsUserControl.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "appfruit\\StatisticsUserControl.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:26:21.203Z"
+              "WhenOpened": "2025-06-15T06:56:08.603Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "AdminDashboardForm.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AdminDashboardForm.cs",
-              "RelativeDocumentMoniker": "appfruit\\AdminDashboardForm.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AdminDashboardForm.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "appfruit\\AdminDashboardForm.cs [\u8BBE\u8BA1]",
+              "Title": "ShoppingCartUserControl.Designer.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\ShoppingCartUserControl.Designer.cs",
+              "RelativeDocumentMoniker": "appfruit\\ShoppingCartUserControl.Designer.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\ShoppingCartUserControl.Designer.cs",
+              "RelativeToolTip": "appfruit\\ShoppingCartUserControl.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:59:07.349Z"
+              "WhenOpened": "2025-06-15T09:25:37.96Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
+              "Title": "ShoppingCartUserControl.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\ShoppingCartUserControl.cs",
+              "RelativeDocumentMoniker": "appfruit\\ShoppingCartUserControl.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\ShoppingCartUserControl.cs",
+              "RelativeToolTip": "appfruit\\ShoppingCartUserControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T09:26:16.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ShoppingCartUserControl.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\ShoppingCartUserControl.cs",
+              "RelativeDocumentMoniker": "appfruit\\ShoppingCartUserControl.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\ShoppingCartUserControl.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "appfruit\\ShoppingCartUserControl.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T06:55:27.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RegisterForm.Designer.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\RegisterForm.Designer.cs",
+              "RelativeDocumentMoniker": "appfruit\\RegisterForm.Designer.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\RegisterForm.Designer.cs",
+              "RelativeToolTip": "appfruit\\RegisterForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T01:21:02.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RegisterForm.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "appfruit\\RegisterForm.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\RegisterForm.cs",
+              "RelativeToolTip": "appfruit\\RegisterForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T01:18:55.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RegisterForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "appfruit\\RegisterForm.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\RegisterForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "appfruit\\RegisterForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T01:18:46.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\Program.cs",
+              "RelativeDocumentMoniker": "appfruit\\Program.cs",
+              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\Program.cs",
+              "RelativeToolTip": "appfruit\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:34:40.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "AdminSalesStatisticsUserControl.Designer.cs",
               "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AdminSalesStatisticsUserControl.Designer.cs",
               "RelativeDocumentMoniker": "appfruit\\AdminSalesStatisticsUserControl.Designer.cs",
@@ -564,65 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "AdminSalesStatisticsUserControl.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AdminSalesStatisticsUserControl.cs",
-              "RelativeDocumentMoniker": "appfruit\\AdminSalesStatisticsUserControl.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AdminSalesStatisticsUserControl.cs",
-              "RelativeToolTip": "appfruit\\AdminSalesStatisticsUserControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:33:15.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AdminSalesStatisticsUserControl.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AdminSalesStatisticsUserControl.cs",
-              "RelativeDocumentMoniker": "appfruit\\AdminSalesStatisticsUserControl.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AdminSalesStatisticsUserControl.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "appfruit\\AdminSalesStatisticsUserControl.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:31:09.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "AIQAUserControl.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AIQAUserControl.cs",
-              "RelativeDocumentMoniker": "appfruit\\AIQAUserControl.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AIQAUserControl.cs",
-              "RelativeToolTip": "appfruit\\AIQAUserControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T14:49:43.585Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "AIQAUserControl.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AIQAUserControl.cs",
-              "RelativeDocumentMoniker": "appfruit\\AIQAUserControl.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AIQAUserControl.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "appfruit\\AIQAUserControl.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T06:56:30.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "AIQAUserControl.Designer.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\AIQAUserControl.Designer.cs",
-              "RelativeDocumentMoniker": "appfruit\\AIQAUserControl.Designer.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\AIQAUserControl.Designer.cs",
-              "RelativeToolTip": "appfruit\\AIQAUserControl.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T06:43:36.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "packages.config",
               "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\packages.config",
               "RelativeDocumentMoniker": "appfruit\\packages.config",
@@ -634,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "RoundedPanel.cs",
               "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\RoundedPanel.cs",
               "RelativeDocumentMoniker": "appfruit\\RoundedPanel.cs",
@@ -646,7 +666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "RoundedPanel.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\RoundedPanel.cs",
               "RelativeDocumentMoniker": "appfruit\\RoundedPanel.cs",
@@ -654,18 +674,6 @@
               "RelativeToolTip": "appfruit\\RoundedPanel.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T12:40:14.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "CurrentUser.cs",
-              "DocumentMoniker": "D:\\winapp\\appfruit\\appfruit\\CurrentUser.cs",
-              "RelativeDocumentMoniker": "appfruit\\CurrentUser.cs",
-              "ToolTip": "D:\\winapp\\appfruit\\appfruit\\CurrentUser.cs",
-              "RelativeToolTip": "appfruit\\CurrentUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T09:19:59.96Z"
             },
             {
               "$type": "Document",
@@ -689,7 +697,8 @@
               "RelativeToolTip": "appfruit\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-06-13T15:39:54.78Z"
+              "WhenOpened": "2025-06-13T15:39:54.78Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

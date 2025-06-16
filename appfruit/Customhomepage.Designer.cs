@@ -152,7 +152,9 @@ namespace appfruit
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.mainContentPanel);
             this.Controls.Add(this.sidebarPanel);
+            this.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Customhomepage";
+            this.Text = "Welcome come to HFruit";
             this.Load += new System.EventHandler(this.Customhomepage_Load);
             this.sidebarPanel.ResumeLayout(false);
             this.sidebarFlowPanel.ResumeLayout(false);
