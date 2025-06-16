@@ -1,0 +1,516 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SunnyUI.SqlSugar</name>
+    </assembly>
+    <members>
+        <member name="T:Sunny.SqlSugar.CodeBuilder">
+            <summary>
+            模板编译器
+            </summary>
+        </member>
+        <member name="M:Sunny.SqlSugar.CodeBuilder.#ctor(SqlSugar.ISqlSugarClient,System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="context">模板</param>
+            <param name="outpath">输出目录</param>
+        </member>
+        <member name="F:Sunny.SqlSugar.CodeBuilder.Tables">
+            <summary>
+            数据表列表
+            </summary>
+        </member>
+        <member name="M:Sunny.SqlSugar.CodeBuilder.Init">
+            <summary>
+            初始化编译器
+            </summary>
+        </member>
+        <member name="M:Sunny.SqlSugar.CodeBuilder.Compile(System.String)">
+            <summary>
+            编译所有表模板
+            </summary>
+            <param name="classNamespace">命名空间</param>
+        </member>
+        <member name="M:Sunny.SqlSugar.CodeBuilder.Compile(System.Collections.Generic.List{Sunny.SqlSugar.Table},System.String)">
+            <summary>
+            编译所有表模板
+            </summary>
+            <param name="tables">数据表列表</param>
+            <param name="classNamespace">命名空间</param>
+        </member>
+        <member name="M:Sunny.SqlSugar.CodeBuilder.Compile(Sunny.SqlSugar.Table,System.String,System.String)">
+            <summary>
+            编译表模板
+            </summary>
+            <param name="table">数据表</param>
+            <param name="classNamespace">命名空间</param>
+            <param name="filename">文件名</param>
+        </member>
+        <member name="T:Sunny.SqlSugar.CodeGenerator">
+            <summary>
+            代码生成器
+            </summary>
+        </member>
+        <member name="M:Sunny.SqlSugar.CodeGenerator.ToString">
+            <summary>
+            字符串输出
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.CodeGenerator.AddLine(System.String,System.Boolean)">
+            <summary>
+            增加一行
+            </summary>
+            <param name="s">字符串</param>
+            <param name="endWithNewLine">结束时新建行</param>
+        </member>
+        <member name="M:Sunny.SqlSugar.CodeGenerator.RunCompile(Sunny.SqlSugar.Table)">
+            <summary>
+            编译
+            </summary>
+            <param name="table">表</param>
+        </member>
+        <member name="T:Sunny.SqlSugar.IEntity">
+            <summary>
+            实体类接口基类
+            </summary>
+        </member>
+        <member name="T:Sunny.SqlSugar.ISugarEntity">
+            <summary>
+            实体类接口定义
+            </summary>
+        </member>
+        <member name="M:Sunny.SqlSugar.ISugarEntity.GetColumns">
+            <summary>
+            获取列信息
+            </summary>
+        </member>
+        <member name="M:Sunny.SqlSugar.ISugarEntity.GetValues">
+            <summary>
+            获取值信息
+            </summary>
+        </member>
+        <member name="M:Sunny.SqlSugar.ISugarEntity.Upsert">
+            <summary>
+            插入表或更新表（关联主键，主键不存在时插入，存在时更新）
+            </summary>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.ISugarEntity.UpsertAsync">
+            <summary>
+            插入表或更新表（关联主键，主键不存在时插入，存在时更新）
+            </summary>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.ISugarEntity.Insert">
+            <summary>
+            插入表
+            </summary>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.ISugarEntity.InsertAsync">
+            <summary>
+            插入表
+            </summary>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.ISugarEntity.Update">
+            <summary>
+            更新表（关联主键）
+            </summary>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.ISugarEntity.UpdateAsync">
+            <summary>
+            更新表（关联主键）
+            </summary>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.ISugarEntity.Delete">
+            <summary>
+            删除表（关联主键）
+            </summary>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.ISugarEntity.DeleteAsync">
+            <summary>
+            删除表（关联主键）
+            </summary>
+            <returns>是否成功</returns>
+        </member>
+        <member name="T:Sunny.SqlSugar.DAL">
+            <summary>
+            数据层
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.DAL.DbType">
+            <summary>
+            数据库类型
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.DAL.ConnectionString">
+            <summary>
+            数据库连接字符串
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.DAL.Connected">
+            <summary>
+            数据库是否连接成功
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.DAL.WriteLogToConsole">
+            <summary>
+            是否打印日志
+            </summary>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.InitConnectionState">
+            <summary>
+            更新连接状态（InitMySql 和 CreateDatabase 会自动调用）
+            </summary>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.CreateClient(System.Boolean)">
+            <summary>
+            创建数据连接
+            https://www.donet5.com/Home/Doc?typeId=1181
+            https://www.donet5.com/Home/Doc?typeId=2352
+            https://www.donet5.com/Home/Doc?typeId=1204 调试SQL，AOP ,日志
+            </summary>
+            <param name="isAutoCloseConnection">是否自动关闭连接，默认关闭</param>
+            <returns>数据连接</returns>
+        </member>
+        <member name="P:Sunny.SqlSugar.DAL.Client">
+            <summary>
+            SqlSugarClient 数据连接
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.Truncate(System.String)">
+            <summary>
+            清空表
+            </summary>
+            <param name="tableName">表名称</param>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.Truncate``1">
+            <summary>
+            清空表
+            </summary>
+            <typeparam name="T">实体类</typeparam>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.DeleteAll``1">
+            <summary>
+            删除全表
+            </summary>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.DeleteAllAsync``1">
+            <summary>
+            删除全表
+            </summary>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.Queryable``1(System.Object)">
+            <summary>
+            根据主键获取一个实体
+            </summary>
+            <typeparam name="T">实体类</typeparam>
+            <param name="primaryKeyValue">主键</param>
+            <returns>实体</returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.QueryableAsync``1(System.Object)">
+            <summary>
+            根据主键获取一个实体
+            </summary>
+            <typeparam name="T">实体类</typeparam>
+            <param name="primaryKeyValue">主键</param>
+            <returns>实体</returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.Deleteable``1(System.Object)">
+            <summary>
+            根据主键删除一个实体
+            </summary>
+            <typeparam name="T">实体类</typeparam>
+            <param name="primaryKeyValue">主键</param>
+            <returns>删除是否成功</returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.DeleteableAsync``1(System.Object)">
+            <summary>
+            根据主键删除一个实体
+            </summary>
+            <typeparam name="T">实体类</typeparam>
+            <param name="primaryKeyValue">主键</param>
+            <returns>删除是否成功</returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.GetSimpleClient``1">
+            <summary>
+            根据数据库对象获取简单数据连接
+            </summary>
+            <typeparam name="T">数据库对象</typeparam>
+            <returns>简单数据连接</returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.LookSQL(System.String,SqlSugar.SugarParameter[])">
+            <summary>
+            查看赋值后的sql
+            </summary>
+            <param name="sql"></param>
+            <param name="pars">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.CreateClassFile(System.String,System.String)">
+            <summary>
+            创建实体类文件
+            </summary>
+            <param name="outpath">输出目录</param>
+            <param name="classNamespace">命名空间</param>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.CreateDatabase">
+            <summary>
+            创建数据库
+            </summary>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.CreateTable``1">
+            <summary>
+            创建数据表
+            </summary>
+            <typeparam name="T">数据对象类</typeparam>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.Count``1">
+            <summary>
+            获取某个表数据量
+            </summary>
+            <typeparam name="T">数据对象类</typeparam>
+            <returns>数据量</returns>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.InitMySql(System.String,System.String,System.String,System.String)">
+            <summary>
+            初始化数据库
+            </summary>
+            <param name="database">数据库名称</param>
+            <param name="password">服务器密码</param>
+            <param name="server">服务器名称</param>
+            <param name="uid">服务器用户名</param>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.InitSqlServer(System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            初始化数据库
+            </summary>
+            <param name="database">数据库名称</param>
+            <param name="password">服务器密码</param>
+            <param name="dataSource">服务器名称</param>
+            <param name="userID">服务器用户名</param>
+            <param name="connectTimeout">连接超时</param>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.InitSqlServerIntegratedSecurity(System.String,System.String,System.Int32)">
+            <summary>
+            初始化数据库（Windows用户安全登录）
+            </summary>
+            <param name="database">数据库名称</param>
+            <param name="dataSource">服务器名称</param>
+            <param name="connectTimeout">连接超时</param>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.InitOracle(System.String,System.String,System.String)">
+            <summary>
+            初始化数据库
+            </summary>
+            <param name="dataSource">数据库名称</param>
+            <param name="password">服务器名称</param>
+            <param name="userID">服务器用户名</param>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.InitPostgreSQL(System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            初始化数据库
+            </summary>
+            <param name="database">数据库名称</param>
+            <param name="password">服务器密码</param>
+            <param name="host">服务器名称</param>
+            <param name="userID">服务器用户名</param>
+            <param name="port">服务器端口</param>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.InitSqlite(System.String,System.String)">
+            <summary>
+            初始化数据库
+            https://www.cnblogs.com/nnhy/p/BigData.html
+            1、关闭同步，Synchronous=Off，提升性能。添删改操作时不必同步等待写入磁盘，操作系统会延迟若干毫秒批量写入
+            2、设置WAL模式，Journal Mode = WAL，减少锁定。写入向前日志模式，避免多线程访问时锁定数据库，写入时不必使用排它锁影响其它线程读取，而是把事务操作写入到WAL文件中，延迟合并
+            3、加大缓存，Cache Size = 5000，提升性能。操作系统通过文件映射MapFile把整个数据库文件映射进入内存，实际查询时会把用到数据所在附近页预先加载进入缓存，极大提升查询性能
+            4、插入速度 5000~16000tps，依赖CPU，HDD/SSD差别不大，主要受限于SQLite.Data.dll的Prepare
+            5、查询速度 非首次查询，缓存命中以后，索引查询基本上都是毫秒级。数据库较大则相应加大缓存，速度不变。
+            6、查记录数 单表数据超过一千万行以后，尽量不要使用Select Count，否则可能需要十几秒到半分钟的样子才能返回。
+            </summary>
+            <param name="dataSource">数据库文件名</param>
+            <param name="password">数据库密码</param>
+        </member>
+        <member name="M:Sunny.SqlSugar.DAL.Init(SqlSugar.DbType,System.String)">
+            <summary>
+            初始化数据库
+            </summary>
+            <param name="dbType">数据库类型</param>
+            <param name="connectionString">数据库连接字符串</param>
+        </member>
+        <member name="T:Sunny.SqlSugar.Table">
+            <summary>
+            数据表
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Table.DbType">
+            <summary>
+            数据库类型
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Table.Name">
+            <summary>
+            程序集名称
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Table.SQLSugarVersion">
+            <summary>
+            SQLSugar版本
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Table.TableName">
+            <summary>
+            数据表名称
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Table.ClassName">
+            <summary>
+            实体类名称（默认为数据表名称）
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Table.Description">
+            <summary>
+            数据表描述
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Table.DbObjectType">
+            <summary>
+            数据表类型(表、视图)
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Table.Columns">
+            <summary>
+            数据列
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Table.Namespace">
+            <summary>
+            实体类命名空间
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Table.CreateDate">
+            <summary>
+            创建日期
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Table.Reserved">
+            <summary>
+            保留文本列表(扩展模板时用)
+            </summary>
+        </member>
+        <member name="M:Sunny.SqlSugar.Table.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:Sunny.SqlSugar.Column">
+            <summary>
+            数据库字段
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.TableName">
+            <summary>
+            数据表名称
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.PropertyName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.PropertyType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.ColumnName">
+            <summary>
+            创建数据库字段的名称（默认取实体类属性名称）
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.DBDataType">
+            <summary>
+            创建数据库字段的类型
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.DataType">
+            <summary>
+            CSharp中的字段类型
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.Length">
+            <summary>
+            长度 设成10会生成   xxx类型(10), 没括号的不设置
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.DecimalDigits">
+            <summary>
+            精度，如 decimal(18,2) length=18,DecimalDigits=2
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.Scale">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.Description">
+            <summary>
+            数据列注释
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.DefaultValue">
+            <summary>
+            默认值
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.IsNullable">
+            <summary>
+            是否可以为空
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.IsIdentity">
+            <summary>
+            是否创建自增标识
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.IsPrimarykey">
+            <summary>
+            是否创建主键标识
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.ConvertString">
+            <summary>
+            CSharp中的字段转换为对象的转换函数
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.Reserved">
+            <summary>
+            保留文本列表(扩展模板时用)
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.SugarColumn">
+            <summary>
+            额外的SugarColumn参数
+            </summary>
+        </member>
+        <member name="P:Sunny.SqlSugar.Column.IsArray">
+            <summary>
+            是否为数组
+            </summary>
+        </member>
+        <member name="M:Sunny.SqlSugar.Column.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+    </members>
+</doc>

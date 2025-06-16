@@ -1,0 +1,448 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SunnyUI.COM</name>
+    </assembly>
+    <members>
+        <member name="T:Sunny.Com.ComDataType">
+            <summary>
+            串口数据类型
+            </summary>
+        </member>
+        <member name="F:Sunny.Com.ComDataType.ASCII">
+            <summary>
+            ASCII字符串
+            </summary>
+        </member>
+        <member name="F:Sunny.Com.ComDataType.HEX">
+            <summary>
+            十六进制
+            </summary>
+        </member>
+        <member name="T:Sunny.Com.ComDataEventArgs">
+            <summary>
+            串口数据事件参数
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComDataEventArgs.String">
+            <summary>
+            字符串数据
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComDataEventArgs.Buffer">
+            <summary>
+            字节数组数据
+            </summary>
+        </member>
+        <member name="T:Sunny.Com.ConnectedEventHandler">
+            <summary>
+            串口数据事件委托
+            </summary>
+            <param name="sender">对象</param>
+            <param name="e">参数</param>
+        </member>
+        <member name="T:Sunny.Com.ComPort">
+            <summary>
+            串口扩展类
+            </summary>
+        </member>
+        <member name="M:Sunny.Com.ComPort.#ctor(Sunny.Com.ComDataType,System.String,System.Int32,System.IO.Ports.Parity,System.Int32,System.IO.Ports.StopBits)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="dataType">串口数据类型</param>
+            <param name="portName">串口名称</param>
+            <param name="baudRate">波特率</param>
+            <param name="parity">奇偶校验</param>
+            <param name="dataBits">数据位</param>
+            <param name="stopBits">停止位</param>
+        </member>
+        <member name="P:Sunny.Com.ComPort.IsDisposed">
+            <summary>
+            是否释放标志，保证重复释放资源时，不重复释放
+            </summary>
+        </member>
+        <member name="M:Sunny.Com.ComPort.ThrowIfDisposed">
+            <summary>
+            判断是否已经被释放，如果是，则抛出异常。
+            </summary>
+        </member>
+        <member name="M:Sunny.Com.ComPort.Dispose">
+            <summary>
+            实现IDisposable中的Dispose方法
+            </summary>
+        </member>
+        <member name="M:Sunny.Com.ComPort.Dispose(System.Boolean)">
+            <summary>
+            释放对象
+            </summary>
+            <param name="disposing">ture时一般位主动调用释放，false一般为GC调用析构函数时释放</param>
+        </member>
+        <member name="P:Sunny.Com.ComPort.Statistics">
+            <summary>
+            串口信息统计类
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.Tag">
+            <summary>
+            标签
+            </summary>
+        </member>
+        <member name="E:Sunny.Com.ComPort.ErrorReceived">
+            <summary>
+            指示通过串口对象表示的端口上发生了错误
+            </summary>
+        </member>
+        <member name="E:Sunny.Com.ComPort.PinChanged">
+            <summary>
+            指示通过串口对象表示的端口上发生非数据信号事件
+            </summary>
+        </member>
+        <member name="M:Sunny.Com.ComPort.Get2PowNHigh(System.Int32)">
+            <summary>
+            得到最接近数字且大于数字的二的N次方数
+            </summary>
+            <param name="value">数字</param>
+            <returns>二的N次方数</returns>
+        </member>
+        <member name="P:Sunny.Com.ComPort.ReadBufferSize">
+            <summary>
+            输入缓冲区，必须为2的N次方
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.WriteBufferSize">
+            <summary>
+            输出缓冲区，必须为2的N次方
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.DataType">
+            <summary>
+            串口数据类型
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.Instance">
+            <summary>
+            串口
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.IsOpen">
+            <summary>
+            串口是否打开
+            </summary>
+        </member>
+        <member name="M:Sunny.Com.ComPort.Close">
+            <summary>
+            关闭串口
+            </summary>
+        </member>
+        <member name="M:Sunny.Com.ComPort.Open">
+            <summary>
+            打开串口
+            </summary>
+        </member>
+        <member name="M:Sunny.Com.ComPort.ReOpen(System.String)">
+            <summary>
+            打开串口
+            </summary>
+            <param name="portName">串口名称</param>
+        </member>
+        <member name="M:Sunny.Com.ComPort.TryReOpen(System.String)">
+            <summary>
+            打开串口
+            </summary>
+            <param name="portName">串口名称</param>
+        </member>
+        <member name="M:Sunny.Com.ComPort.TryOpen">
+            <summary>
+            尝试打开串口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Sunny.Com.ComPort.ReadTimeSpan">
+            <summary>
+            读取数据间隔时间
+            </summary>
+        </member>
+        <member name="E:Sunny.Com.ComPort.Received">
+            <summary>
+            接收串口数据
+            </summary>
+        </member>
+        <member name="M:Sunny.Com.ComPort.OnReceived(Sunny.Com.ComPort,Sunny.Com.ComDataEventArgs)">
+            <summary>
+            接收串口数据
+            </summary>
+            <param name="sender">对象</param>
+            <param name="e">参数</param>
+        </member>
+        <member name="M:Sunny.Com.ComPort.Write(System.Byte[])">
+            <summary>
+            发送数据
+            </summary>
+            <param name="buffer">数据</param>
+        </member>
+        <member name="M:Sunny.Com.ComPort.Write(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            发送数据
+            </summary>
+            <param name="buffer">数据</param>
+            <param name="offset">偏移</param>
+            <param name="count">长度</param>
+        </member>
+        <member name="M:Sunny.Com.ComPort.Write(System.String,System.Boolean)">
+            <summary>
+            发送命令
+            </summary>
+            <param name="cmdString">数据</param>
+            <param name="addNewLine">是否增加换行字符串</param>
+        </member>
+        <member name="M:Sunny.Com.ComPort.GetPortNames">
+            <summary>
+            获取当前设备所有串口列表
+            </summary>
+            <returns>串口列表</returns>
+        </member>
+        <member name="P:Sunny.Com.ComPort.BytesToWrite">
+            <summary>
+            获取发送缓冲区中数据的字节数
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.BytesToRead">
+            <summary>
+            获取接收缓冲区中数据的字节数
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.BreakState">
+            <summary>
+            获取或者设置中断信号状态
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.CDHolding">
+            <summary>
+            获取端口的载波检测行的状态
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.CtsHolding">
+            <summary>
+            获取“可以发送”行的状态
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.DiscardNull">
+            <summary>
+            获取或者设置一个值，该值指示 null 字节在端口和接收缓冲区之间传输时是否被忽略
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.DsrHolding">
+            <summary>
+            获取数据设置就绪（DSR）信号的状态
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.DtrEnable">
+            <summary>
+            获取或设置一个值，该值在串行通信过程中启用数据终端就绪（DTR）信号
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.Handshake">
+            <summary>
+            使用 Handshake 中的值获取或者设置串行端口数据传输的握手协议
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.NewLine">
+            <summary>
+            获取或者设置用于解释读写行方法调用结束的值
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.ParityReplace">
+            <summary>
+            获取或设置一个字节，该字节在发生奇偶校验错误时替换数据流中的无效字节
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.ReadTimeout">
+            <summary>
+            获取或者设置读取操作未完成时发生超时之前的毫秒数
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.ReceivedBytesThreshold">
+            <summary>
+            获取或者设置 DataReceived 事件发生前内部输入缓冲区中的字节数
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.RtsEnable">
+            <summary>
+             获取或设置一个值，该值指示在串行通信中是否启用请求发送（RTS）信号
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.WriteTimeout">
+            <summary>
+            获取或者设置写入操作未完成时发生超时之前的毫秒数
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.PortName">
+            <summary>
+            获取或者设置通信端口，包括但不限于所有可用的 COM 端口
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.BaudRate">
+            <summary>
+            获取或者设置串行波特率
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.DataBits">
+            <summary>
+            获取或者设置每个字节的标准数据位长度
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.Parity">
+            <summary>
+            获取或者设置奇偶校验检查协议
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.StopBits">
+            <summary>
+            获取或者设置每个字节的标准停止位数
+            </summary>
+        </member>
+        <member name="M:Sunny.Com.ComPort.DiscardInBuffer">
+            <summary>
+            丢弃来自串行驱动程序中接收缓冲区的数据
+            </summary>
+        </member>
+        <member name="M:Sunny.Com.ComPort.DiscardOutBuffer">
+            <summary>
+            丢弃来自串行驱动程序中传输缓冲区的数据
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComPort.Encoding">
+            <summary>
+            获取或者设置传输前后文本转换的字节编码
+            </summary>
+        </member>
+        <member name="T:Sunny.Com.ComStatistics">
+            <summary>
+            串口信息统计类
+            </summary>
+        </member>
+        <member name="M:Sunny.Com.ComStatistics.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComStatistics.BytesReceived">
+            <summary>
+            接收数据字节数
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComStatistics.BytesSent">
+            <summary>
+            发送数据字节数
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComStatistics.LastSentTime">
+            <summary>
+            最后发送时间
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComStatistics.LastReceivedTime">
+            <summary>
+            最后接收时间
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComStatistics.Flow">
+            <summary>
+            每秒流量（字节/秒）
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ComStatistics.FlowString">
+            <summary>
+            每秒流量
+            </summary>
+        </member>
+        <member name="M:Sunny.Com.ComStatistics.AddReceivedBytes(System.Int64)">
+            <summary>
+            增加接收数据字节数统计
+            </summary>
+            <param name="bytesCount">字节数</param>
+        </member>
+        <member name="M:Sunny.Com.ComStatistics.AddSentBytes(System.Int64)">
+            <summary>
+            增加发送数据字节数统计
+            </summary>
+            <param name="bytesCount">字节数</param>
+        </member>
+        <member name="M:Sunny.Com.ComStatistics.ClearStatistics">
+            <summary>
+            清除发送、接收字节数统计
+            </summary>
+        </member>
+        <member name="M:Sunny.Com.ComStatistics.ReceivedStatus(System.TimeSpan)">
+            <summary>
+            接收数据状态
+            </summary>
+            <param name="span">时间间隔</param>
+            <returns>在指定时间间隔内是否接收到数据</returns>
+        </member>
+        <member name="T:Sunny.Com.ValueCountTimer">
+            <summary>
+            值类型计数定时器(默认计数周期1秒，计数时间间隔需小于计数周期)
+            </summary>
+        </member>
+        <member name="M:Sunny.Com.ValueCountTimer.#ctor(System.TimeSpan)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="period">计数周期</param>
+        </member>
+        <member name="M:Sunny.Com.ValueCountTimer.#ctor">
+            <summary>
+            构造函数，默认计数周期1秒
+            </summary>
+        </member>
+        <member name="F:Sunny.Com.ValueCountTimer._count">
+            <summary>
+            周期内的累计计数值。
+            </summary>
+        </member>
+        <member name="F:Sunny.Com.ValueCountTimer._lastAdded">
+            <summary>
+            最后一次递增时间
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ValueCountTimer.Count">
+            <summary>
+            周期内的累计计数值。
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ValueCountTimer.LastAdded">
+            <summary>
+            最后一次递增时间
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ValueCountTimer.Tick">
+            <summary>
+            当达到一个周期时触发。
+            </summary>
+        </member>
+        <member name="P:Sunny.Com.ValueCountTimer.Period">
+            <summary>
+            计数周期，。
+            </summary>
+        </member>
+        <member name="M:Sunny.Com.ValueCountTimer.Add(System.Int64)">
+            <summary>
+            累计增加计数
+            </summary>
+            <param name="value"></param>
+            <returns>返回值表示当前递增的是否在一个周期内。</returns>
+        </member>
+        <member name="M:Sunny.Com.ValueCountTimer.Reset">
+            <summary>
+            重置
+            </summary>
+        </member>
+    </members>
+</doc>
